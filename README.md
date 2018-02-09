@@ -12,3 +12,5 @@ Bypass [Snapchat](https://play.google.com/store/apps/details?id=com.snapchat.and
 ```
 ./frida_spawn.py ./ca.crt
 ```
+
+The certificate that is passed to frida_spawn.py is the trusted certifcate. This certificate can be exported from Burp, note that it must be in PEM format.
